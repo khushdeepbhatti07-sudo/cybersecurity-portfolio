@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-*
+/build/
+/demo-files/
+security_log_analyzer

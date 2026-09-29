@@ -17,9 +17,21 @@ Use only logs and systems that you own or are authorized to analyze. Sample data
 
 ```bash
 g++ -std=c++17 -Wall -Wextra -o security_log_analyzer security_log_analyzer.cpp
-./security_log_analyzer sample_auth.log
+./security_log_analyzer samples/auth.log
 ```
 
 ## Skills demonstrated
 
 C++, file I/O, regular expressions, STL containers, sorting, defensive security monitoring, and command-line development.
+
+## Included demo
+
+Run the build commands from this directory. The synthetic sample produces:
+
+```text
+Failed-login alerts (threshold: 3)
+[ALERT] 192.0.2.10: 3 failures
+Malformed lines ignored: 1
+```
+
+The sample contains documentation-only IP addresses. Counts cover the entire file, not a sliding time window. An alert is a signal to investigate, not proof of an attack. The parser accepts the custom format shown in the sample; timestamps and IP addresses are not semantically validated. Per-user counts are collected internally but are not printed.

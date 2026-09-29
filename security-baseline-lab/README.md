@@ -2,6 +2,8 @@
 
 An authorized VirtualBox lab for practicing secure workstation setup on Windows 11 and Linux Mint. The project focuses on practical hardening, verification, and documentation.
 
+**Status: lab guide — completed VM verification evidence has not been added.** Use the [verification record](verification-record.md) to document actual results.
+
 ## Lab environment
 
 - VirtualBox
@@ -36,6 +38,6 @@ An authorized VirtualBox lab for practicing secure workstation setup on Windows 
 
 Only use systems you own or are explicitly authorized to administer. Do not scan, attack, or alter external systems.
 
-## Resume-ready description
+## Completion criteria
 
-Built an authorized Windows 11 and Linux Mint VirtualBox lab; applied operating-system updates, account controls, firewall settings, and permission reviews, then documented verification evidence and remaining risks.
+Complete the verification record with actual observations and evidence before describing this lab as completed on a resume.
